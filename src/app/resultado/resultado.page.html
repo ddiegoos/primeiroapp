@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="secundary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>resultado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col><b>Acertos</b></ion-col>
+        <ion-col><b>Erros</b></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col><b>{{certo}}</b></ion-col>
+        <ion-col><b>{{errado}}</b></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button expand="block" (click)="telahome()">Inicio</ion-button>
+
+  </div>
+
+</ion-content>

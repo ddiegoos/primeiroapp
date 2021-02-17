@@ -1,0 +1,23 @@
+div{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#container {
+ 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  
+    margin: 0px 15px 0px 15px;
+  }
